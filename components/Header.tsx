@@ -30,9 +30,9 @@ function Header() {
           <ChevronDownIcon className='h-5 w-5'/>
 
         </div>
-        <form className="flex  items-center space-x-2  bg-gray-100 px-3 py-1border rounded-sm border-gray-200">
+        <form className="flex flex-1 items-center space-x-2  bg-gray-100 px-3 py-1 border rounded-sm border-gray-200">
           <SearchIcon className='h-6 w-6 text-gray-400'/>
-          <input  className='flex-1  bg-transparent outline-none' type="text" placeholder='search here'/>
+          <input  className='flex-1 bg-transparent outline-none' type="text" placeholder='search here'/>
           <button type="submit" hidden/>
         </form>
 
