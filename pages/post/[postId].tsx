@@ -65,7 +65,7 @@ function PostPage() {
             </form>
         </div>
 
-        <div className='rounded-md border border-t-0 -my-5 bg-white py-5 px-10  border-gray-300'>
+        <div className='rounded-b-md border border-t-0 -my-5 bg-white py-5 px-10  border-gray-300'>
             <hr className='py-2'/>
 
             {post?.comments.map((comment) =>(
