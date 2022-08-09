@@ -18,7 +18,7 @@ import Link from 'next/link'
 function Header() {
   const {data:session}=useSession();
   return (
-    <div className='flex  sticky top-0 z-50 bg-white justify-between px-4 mx-auto py-4 shadow-sm'>
+    <div className='flex  sticky top-0 z-50 bg-white justify-between px-4 mx-auto py-2 shadow-sm'>
         <div className='relative h-10 w-20 flex-shrink-0 cursor-pointer'>
             <Link href='/'>
               <Image objectFit='contain' src="http://links.papareact.com/fqy"layout='fill'/>
