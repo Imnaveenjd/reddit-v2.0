@@ -17,14 +17,14 @@ function Subreddit() {
                     <Avatar seed={topic as string} large/>
                 </div>
                 <div className='py-2'>
-                    <h1 className='lg:text-3xl text-xl font-semibold'>Welcome to the r/{ topic } subreddit</h1>
+                    <h1 className='text-3xl font-semibold'>Welcome to the r/{ topic } subreddit</h1>
                     <p className='text-sm  text-gray-400'>r/{ topic }</p>
                 </div>
                 
             </div>
           </div>
           
-          <div className='mx-auto  flex flex-col max-w-7xl mt-5 pb-5 '> 
+          <div className='mx-auto max-w-5xl mt-5 pb-10 '> 
             <PostBox subreddit={topic as string} />
             <Feed topic={topic as string}/>
           </div>
