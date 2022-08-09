@@ -18,7 +18,7 @@ import Link from 'next/link'
 function Header() {
   const {data:session}=useSession();
   return (
-    <div className='flex  sticky top-0 z-50 bg-white px-4 py-4 shadow-sm'>
+    <div className='flex  sticky top-0 z-50 bg-white px-4 py-3 shadow-sm'>
         <div className='relative h-10 w-20 flex-shrink-0 cursor-pointer'>
             <Link href='/'>
               <Image objectFit='contain' src="http://links.papareact.com/fqy"layout='fill'/>
@@ -30,7 +30,7 @@ function Header() {
           <ChevronDownIcon className='h-5 w-5'/>
 
         </div>
-        <form className="flex flex-1 items-center space-x-2  bg-gray-100 px-3 py-1border rounded-sm border-gray-200">
+        <form className="flex  items-center space-x-2  bg-gray-100 px-3 py-1border rounded-sm border-gray-200">
           <SearchIcon className='h-6 w-6 text-gray-400'/>
           <input  className='flex-1  bg-transparent outline-none' type="text" placeholder='search here'/>
           <button type="submit" hidden/>
