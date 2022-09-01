@@ -21,7 +21,7 @@ function Header() {
     <div className='flex  sticky top-0 z-50 bg-white justify-between px-4 mx-auto py-2 shadow-sm'>
         <div className='relative h-10 w-20 flex-shrink-0 cursor-pointer'>
             <Link href='/'>
-              <Image objectFit='contain' src="https://styles.redditmedia.com/t5_2qgzy/styles/communityIcon_rvt3zjh1fc551.png?width=256&s=87c202e9000d8061f18a9d72b106bdc9c8a219cc"layout='fill'/>
+              <Image objectFit='contain' src="https://www.redditstatic.com/reddit404a.png"layout='fill'/>
             </Link>
         </div>
      
