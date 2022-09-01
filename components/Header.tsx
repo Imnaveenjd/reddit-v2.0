@@ -21,7 +21,7 @@ function Header() {
     <div className='flex  sticky top-0 z-50 bg-white justify-between px-4 mx-auto py-2 shadow-sm'>
         <div className='relative h-10 w-20 flex-shrink-0 cursor-pointer'>
             <Link href='/'>
-              <Image objectFit='contain' src="http://links.papareact.com/23l" layout='fill'/>
+              <Image objectFit='contain' src="https://www.redditinc.com/assets/images/site/logo.svg" layout='fill'/>
             </Link>
         </div>
      
